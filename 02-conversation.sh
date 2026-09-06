@@ -1,6 +1,6 @@
 #!/bin/bash
-person1=putin
-person2=zelenski
+person1=$1
+person2=$2
 echo "$person1: Hi $person2 i will blast you"
 echo "$person2: Hehe,Nice joke.go and play child games"
 echo "$person1: $person2.I am serious"
