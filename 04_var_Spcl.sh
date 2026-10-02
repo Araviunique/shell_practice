@@ -8,3 +8,4 @@ echo "which directory: $PWD"
 echo "Home Directory: $HOME"
 echo "PID for the current script: $$"
 sleep 5 &
+wait $!
