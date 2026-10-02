@@ -9,7 +9,8 @@ echo "Home Directory: $HOME"
 echo "PID for the current script: $$"
 sleep 5 &
 wait $!
+echo "ecit code : $?"
 echo "Line number you want to Know : $LINENO"
 echo "PID background Running : $!"
 echo "$SECONDS seconds the Script executed"
-echo "Randm Number : $RANDOM"
+echo "Rand0m Number : $RANDOM"
