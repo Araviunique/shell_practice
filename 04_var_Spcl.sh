@@ -11,3 +11,4 @@ sleep 5 &
 wait $!
 echo "Line number you want to Know : $LINENO"
 echo "PID background Running : $!"
+echo "$SECONDS seconds the Script executed"
